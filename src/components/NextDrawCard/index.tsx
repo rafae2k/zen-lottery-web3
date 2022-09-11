@@ -1,6 +1,5 @@
 import { useContract, useContractData } from '@thirdweb-dev/react'
 import { CountDownTimer } from 'components/CountDownTimer'
-import { useEffect } from 'react'
 import { formatCurrency } from 'utils/formatCurrency'
 
 export const NextDrawCard = () => {

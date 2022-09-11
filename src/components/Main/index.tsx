@@ -4,9 +4,7 @@ import { NextDrawCard } from 'components/NextDrawCard'
 import { BuyTicketCard } from 'components/BuyTicketCard'
 
 export const Main = () => {
-  const { contract, isLoading } = useContract(
-    process.env.NEXT_PUBLIC_CONTRACT_ADDRESS
-  )
+  const { isLoading } = useContract(process.env.NEXT_PUBLIC_CONTRACT_ADDRESS)
 
   return (
     <main className="container px-4 sm:mx-auto">
