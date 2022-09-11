@@ -8,6 +8,8 @@ export const Main = () => {
     process.env.NEXT_PUBLIC_CONTRACT_ADDRESS
   )
 
+  console.log(process.env.NEXT_PUBLIC_CONTRACT_ADDRESS)
+
   console.log(isLoading, error)
 
   return (
