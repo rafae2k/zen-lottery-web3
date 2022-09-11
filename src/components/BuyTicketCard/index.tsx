@@ -18,8 +18,11 @@ export const BuyTicketCard = () => {
   const [tickets, setTickets] = useState(0)
 
   const total =
-    tickets * Number(formatCurrency(ticketPrice)) +
-    Number(formatCurrency(commission))
+    ticketPrice && commission
+      ? tickets * Number(formatCurrency(ticketPrice)) +
+        Number(formatCurrency(commission)) +
+        commission
+      : 0
 
   const handleBuyTickets = async () => {
     if (!ticketPrice) return
