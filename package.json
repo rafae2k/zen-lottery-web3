@@ -10,17 +10,21 @@
     "generate": "yarn plop --plopfile ./generators/plopfile.js"
   },
   "dependencies": {
+    "@agney/react-loading": "^0.1.2",
     "@heroicons/react": "^2.0.10",
     "@thirdweb-dev/react": "^2.9.7",
     "@thirdweb-dev/sdk": "^2.4.9",
     "ethers": "^5.7.0",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-countdown": "^2.3.2",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.3.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@tailwindcss/typography": "^0.5.7",
     "@types/node": "18.7.16",
     "@types/react": "18.0.18",
     "@types/react-dom": "18.0.6",
